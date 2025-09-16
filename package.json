@@ -9,19 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.1",
-    "@supabase/supabase-js": "^2.45.0",
-    "komma-contracts": "^0.1.0",
-    "komma-ui": "^0.1.0",
-    "komma-todo": "^0.1.0",
-    "komma-acquisitie": "^0.1.0"
+    "react-router-dom": "^6.0.0",
+    "komma-contracts": "github:joostvanrooijen-sys/komma-contracts#v0.1.0",
+    "komma-ui": "github:joostvanrooijen-sys/komma-ui#v0.1.0",
+    "komma-todo": "github:joostvanrooijen-sys/komma-todo#v0.1.0",
+    "komma-acquisitie": "github:joostvanrooijen-sys/komma-acquisitie#v0.1.0"
   },
   "devDependencies": {
-    "vite": "^5.4.0",
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
-    "typescript": "^5.4.0"
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.4.0",
+    "vite": "^5.0.0"
   }
 }
